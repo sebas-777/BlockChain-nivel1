@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "authenticate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"primerContrato/Authentication.sol": "Authentication"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"primerContrato/Authentication.sol": {
+			"keccak256": "0x1bb08060e1f5173ef277a2e5036b2f4b5af01b094e57df22dfa7036144d6ab48",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://266b6efeaed81acb7601f82ca7cf91679077ec56fbdf2b3c3dba9bbdf05802a7",
+				"dweb:/ipfs/QmUn4V3sgq51nTSs1ERHSi5vWnCw9St7S4J5eJdBeMnRrn"
+			]
+		}
+	},
+	"version": 1
+}
