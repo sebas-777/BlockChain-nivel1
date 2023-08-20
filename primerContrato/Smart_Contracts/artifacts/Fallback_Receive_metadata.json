@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"primerContrato/Smart_Contracts/6_fallback_recieve.sol": "Fallback_Receive"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"primerContrato/Smart_Contracts/6_fallback_recieve.sol": {
+			"keccak256": "0x729248dd61a42efccb9eee59bd1652cc1c4f30bce29e3a9876f91e1c6962aa8b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5d03616c00fbed348ae0b43b8ea7e614de0242deefce667a520f021bb048238b",
+				"dweb:/ipfs/Qmd6eGzUBxTt8mQVy3HGVhd6N641w43XdA9U58txv2CSrA"
+			]
+		}
+	},
+	"version": 1
+}
