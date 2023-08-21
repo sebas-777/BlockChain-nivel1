@@ -39,6 +39,6 @@ contract Hamburger is Food {
     } 
 
     function hashPrivateNumber(uint _number) public view onlyOwner returns (bytes32) {
-        return keccak256(abi.encodePacked(_number));
+         return keccak256(abi.encodePacked(_number));
     }
 }
