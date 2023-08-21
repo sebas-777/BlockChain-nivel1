@@ -36,6 +36,35 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "operation",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "sum_rest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -66,11 +95,11 @@
 	},
 	"sources": {
 		"primerContrato/Smart_Contracts/8_bucles_condicionales.sol": {
-			"keccak256": "0x9a5c8083d41e1e5b1253154e4679112de721b601b6bec3f58f706d6e21c39eb8",
+			"keccak256": "0x11ca4ea0c6cd2db8423d5e621260d89735b802b551118baf3524894b4f4c07e1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3487f20cf186313bff155c7db238a6566d99caadf4bddce461208bfe63961fac",
-				"dweb:/ipfs/QmYqUqigd9qT2Mf81Ez7uKnJyGrS5Ly8mCAr5GhJeSwwzW"
+				"bzz-raw://716f9b3fd0bb9a3e95e5da6a457a855579a8bebe04c6f1d2a2732c595937f08c",
+				"dweb:/ipfs/QmUsBNiiB1BnADdEL9tcgHvMrnF7pwGEm8omBKNihKv4S9"
 			]
 		}
 	},

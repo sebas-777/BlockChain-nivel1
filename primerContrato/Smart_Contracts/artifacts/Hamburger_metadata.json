@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ingredients",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_units",
+						"type": "uint256"
+					}
+				],
+				"name": "doHamburger",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "hashPrivateNumber",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "menu",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ingredients",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"primerContrato/Smart_Contracts/9_funciones_avanzadas.sol": "Hamburger"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"primerContrato/Smart_Contracts/9_funciones_avanzadas.sol": {
+			"keccak256": "0xc4cbcbcc3eae5201d887a783d238ec9f7099093444191233a0155cdbf47e1294",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://168d1cd0cc41e9e0aeaffa1563fd909241cac9d2e5ddc02c4c90f974eda4d446",
+				"dweb:/ipfs/QmYZgHNn9BZk4vT49Hj8KJFHVNQhEHxdnk6B3wQA3SCDEP"
+			]
+		}
+	},
+	"version": 1
+}
